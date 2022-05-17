@@ -1,0 +1,146 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    color: gold;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    color: gold;
+}
+
+#mainbar{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#navbar{
+    background-color: gold;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;    
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 3px;
+    text-decoration: none;
+  }
+
+li a:hover{
+    color: darkgoldenrod;
+}
+
+a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkgoldenrod;
+}
+
+img{
+    width: 610px;
+    height: 415px;
+}
+
+#sub-img{
+    width: 300px;
+    height: 300px;
+}
+
+#encons{
+    width: 1100px;
+    height: 700px;
+}
+
+.sub-body{
+    display: flex;
+    flex-flow:row; 
+    justify-content: center; 
+    
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+    background-color: gold;
+}
+
+.block-noticia{
+    width: 610px;
+    height: 550px;
+    background-color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid gold;
+    border-bottom: 1px solid black;
+}
+
+.block-secundaria{
+    width: 610px;
+    height: 100px;
+    background-color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid gold;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-flow:column
+    /* justify-content: space-between;  */
+    align-items: center;
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+}
+
+#menuicon{
+    width: 40px;
+    height: 40px;
+}
+
+.img-sec{
+    width: 100px;
+    height: 100px;
+}
+
+#div1{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+#banner1{
+    width: 1022px;
+    height: 120px;
+}
+
+footer{
+    height: 140px;
+    background-color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
